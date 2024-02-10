@@ -77,7 +77,6 @@ footer {
     align-items: center;
     padding: 10px;
     grid-area: footer;
-
 }
 
 .galeria {
@@ -110,7 +109,7 @@ footer img {
     .container {
         display: grid;
         grid-template-columns: 150px 1fr;
-        grid-template-rows: 60px 1fr 50px;
+        grid-template-rows: 80px 1fr 80px;
         grid-template-areas:    "navbar filtros"
                                 "navbar galerias"
                                 "footer galerias";
